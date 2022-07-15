@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consulta Game</title>
+    <link rel="stylesheet" href="estilo/style.css">
+</head>
+<body>
+    <div id="container">
+        <p id="descricao">Trabalhando com <strong>HTML</strong> e <strong>CSS</strong> com <strong>JavaScript</strong> para fazer consultas.</p>
+        <hr>
+        <img src="logo.png" alt="Logo do Site" id="logo">
+        <form>
+            <label for="ibusca" id="ajuda">Digite o Nome do Personagem</label>
+            <input type="text" name="busca" id="ibusca" placeholder="Ex: Sonic" class="quadro">
+            <input type="button" value="Buscar" class="quadro" id="botao" onclick="clicou()">
+        </form>
+        <div id="resultado" class="quadro">
+            ...
+        </div>
+    </div>
+    <script src="script/script.js"></script>
+</body>
+</html>
