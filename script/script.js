@@ -6,17 +6,17 @@ function clicou() {
 
     img.setAttribute('id', 'foto')
 
-    switch (nome) {
-        case 'Mario':
+    switch (nome.toLowerCase()) {
+        case 'mario':
             img.setAttribute('src', 'personagem/mario.png')
             break
-        case 'Luigi':
+        case 'luigi':
             img.setAttribute('src', 'personagem/luigi.png')
             break
-        case 'Yoshi':
+        case 'yoshi':
             img.setAttribute('src', 'personagem/yoshi.png')
             break
-        case 'Sonic':
+        case 'sonic':
             img.setAttribute('src', 'personagem/sonic.png')
     }
 
